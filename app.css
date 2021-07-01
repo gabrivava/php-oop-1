@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+.movies {
+    margin: 2rem;
+    background-color: rgb(212, 228, 246);
+    display: flex;
+    justify-content: space-around;
+}
+.movie {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+}
